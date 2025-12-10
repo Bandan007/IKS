@@ -278,8 +278,6 @@ background-image: url(7_rocky.jpg);
     display: flex;
     width: 700px;
     flex-wrap: wrap;
-z-index: 2;
-position: absolute;
 transform: translateY(-720px);
 }
 .i{
