@@ -7,7 +7,7 @@ function scaleSlides() {
 
     const scale = Math.min(scaleX, scaleY); // keep aspect ratio
 
-    document.querySelectorAll(".size, .size2, .size3").forEach(slide => {
+    document.querySelectorAll(".size0, .size, .size2, .size3").forEach(slide => {
         slide.style.transform = `scale(${scale})`;
         slide.style.transformOrigin = "top left";
     });
