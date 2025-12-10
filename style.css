@@ -11,6 +11,17 @@
     row-gap: 40px;
     justify-content: center;
 }
+.size0{
+    background: #F4E0C7;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1280px;
+    height: 720px;
+    z-index: -1;
+}
 .size{
     background: linear-gradient(90deg,#F4E0C7 60%,rgba(0,0,0,0)110%),url(img.jpg);
     background-size: cover;
@@ -311,4 +322,8 @@ transform: translateY(-720px);
     line-height: 50px;
     margin-top: 70px;
     margin-left: 80px;
+}
+.img17{
+    width: 1280px;
+    height: 720px;
 }
