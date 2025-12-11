@@ -9,7 +9,7 @@ function scaleSlides() {
 
     document.querySelectorAll(".size0, .size, .size2, .size3").forEach(slide => {
         slide.style.transform = `scale(${scale})`;
-        slide.style.transformOrigin = "center left";
+        slide.style.transformOrigin = "top left";
     });
 }
 
