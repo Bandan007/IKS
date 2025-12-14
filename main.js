@@ -16,7 +16,7 @@ function scaleSlides() {
 window.addEventListener("resize", scaleSlides);
 window.addEventListener("load", scaleSlides);
 
-let slides = document.querySelectorAll(".slide");
+//let slides = document.querySelectorAll(".slide");
 let index = 0;
 
 function showSlide(i) {
